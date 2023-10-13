@@ -1,0 +1,18 @@
+{
+  "name": "challete_ferrolino",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "powerserver": "lite-server --baseDir=\"public\"",
+    "chat2cool": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run chat2cool\" \"npm run powerserver\""    
+  },
+  "author": "Challete Ferrolino",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.3"
+  }
+}
